@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/dagba/UtilityKit'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Dagba' => 'Dagba' }
-    s.source           = { :git => 'https://github.com/dagba/UtilityKit.git', :commit => "fae10bdcde2c3b88bc2b0398932ffea01eaa0646", :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/dagba/UtilityKit.git', :commit => "b6a382197b2df7fa3b79abb1bd9d3d8738cff437", :tag => s.version.to_s }
     
     
     s.ios.deployment_target = '10.0'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.platform              = :ios, '9.0'
     s.framework         = 'UIKit'
     
-    s.source_files = '*.swift'
+    s.source_files = 'UtilityKit/**/*.swift'
     
     # s.resource_bundles = {
     #   'UtilityKit' => ['UtilityKit/Assets/*.png']
