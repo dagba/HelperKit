@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/dagba/UtilityKit'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Dagba' => 'Dagba' }
-    s.source           = { :git => 'https://github.com/dagba/UtilityKit.git', :commit => "c25e240e27eb3e544f8320d075981161b4d1266f", :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/dagba/UtilityKit.git', :commit => "65a1e0d386b96588b348d0c10a380a537d7ac80a", :tag => s.version.to_s }
     
     
     s.ios.deployment_target = '10.0'
